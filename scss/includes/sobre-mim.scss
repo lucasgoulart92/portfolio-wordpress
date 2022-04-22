@@ -1,0 +1,39 @@
+.sobre-mim {
+    padding-top: 40px;
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        img.avatar {
+            width: 120px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            margin: 40px 0 20px 0;
+        }
+        h3 {
+            color: #fff;
+            font-size: 24px;
+        }
+        p.servicos {
+            font-size: 12px;
+            margin: 5px 0;
+            width: 120px;
+            text-align: center;
+            color: #fff;
+        }
+        ul.redes {
+            li {
+                display: inline;
+                height: 36px;
+                margin: 0 5px;
+                a {
+                    svg {
+                        fill: #fff;
+                        width: 32px;
+                    }
+                }
+            }
+        }
+    }
+}

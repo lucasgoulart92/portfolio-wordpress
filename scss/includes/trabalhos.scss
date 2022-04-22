@@ -1,0 +1,21 @@
+.trabalhos {
+    width: 100%;
+    padding: 40px 0;
+    &__content {
+        width: 320px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h2 {
+            font-size: 22px;
+            color: #fff;
+            margin-bottom: 40px;
+            font-weight: 100;
+        }
+        &__grid {
+            display: grid;
+        }
+    }
+}

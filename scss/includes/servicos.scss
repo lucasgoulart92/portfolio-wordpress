@@ -1,0 +1,48 @@
+.index-servicos {
+    padding: 20px 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
+        &__item {
+            background-color: #0d0d0d;
+            margin: 5px;
+            border-radius: 8px;
+            height: 64px;
+            width: 285px;
+            transition: 0.2s ease;
+            .divider {
+                width: 7px;
+                background-color: #20E3D8;
+                position: absolute;
+                height: 64px;
+                border-radius: 8px;
+            }
+            &__txt {
+                padding: 20px;
+                h3.servico {
+                    color: #20E3D8;
+                    font-size: 16px;
+                    font-weight: 100;
+                }
+                p.info {
+                    font-size: 10px;
+                    width: 120px;
+                }
+            }
+            a.portfolio {
+                width: 60px;
+            }
+        }
+        &__item:hover {
+            margin-right: -2px;
+        }
+    }
+}
